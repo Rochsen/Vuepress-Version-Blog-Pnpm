@@ -1,7 +1,7 @@
 ---
-title: 主要功能与配置演示
+title: 示例
 index: false
-icon: laptop-code
+icon: bell
 category:
   - 使用指南
 ---

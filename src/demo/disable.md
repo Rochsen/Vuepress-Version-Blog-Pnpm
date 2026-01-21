@@ -7,7 +7,7 @@ category:
 tag:
   - 禁用
 
-navbar: false
+navbar: true
 sidebar: false
 
 breadcrumb: false
