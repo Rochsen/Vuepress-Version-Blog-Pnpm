@@ -5,7 +5,6 @@ export const sideBarConfig = sidebar({
   "/learn/": "structure",
   "/about/": "structure",
   "/strategy/": [
-    "",
     {
       text: "游戏",
       icon: "gamepad",
