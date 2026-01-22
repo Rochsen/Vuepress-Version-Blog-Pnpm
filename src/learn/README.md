@@ -1,5 +1,5 @@
 ---
-title: 笔记
+title: 学习
 index: false
 # icon: pen
 category:

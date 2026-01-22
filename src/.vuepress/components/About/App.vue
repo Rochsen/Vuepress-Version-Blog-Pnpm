@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-button type="success" size="default">这是一个按钮</el-button>
+    <!-- <el-button type="success" size="default">这是一个按钮</el-button> -->
   </div>
 </template>
 

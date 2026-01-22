@@ -4,36 +4,39 @@ export default navbar([
   // 主页
   "/",
   // 笔记
-  "/notes/",
+  "/learn/",
   // 关于
   "/about/",
+  // 攻略
+  "/strategy/",
   // 友链
   "/friendlinks/",
-  // 攻略
-  {
-    text: "攻略",
-    // icon: "pen-to-square",
-    prefix: "/strategy/",
-    children: [
-      {
-        text: "游戏",
-        // icon: "person-running",
-        prefix: "games/",
-        children: [
-          {
-            text: "艾尔登法环 黑夜君临",
-            // icon: "person-running",
-            link: "nightReign/bossAnti",
-          },
-          {
-            text: "背包乱斗：福西法的宝藏",
-            // icon: "person-running",
-            link: "backpackBattle/itemsFunc",
-          },
-        ],
-      },
-    ],
-  },
+
+  // {
+  //   text: "攻略",
+  //   // icon: "pen-to-square",
+  //   prefix: "/strategy/",
+  //   children: [
+  //     "games/"
+  //     {
+  //       text: "游戏",
+  //       // icon: "person-running",
+  //       prefix: "games/",
+  //       children: [
+  //         {
+  //           text: "艾尔登法环 黑夜君临",
+  //           // icon: "person-running",
+  //           link: "nightReign/bossAnti",
+  //         },
+  //         {
+  //           text: "背包乱斗：福西法的宝藏",
+  //           // icon: "person-running",
+  //           link: "backpackBattle/itemsFunc",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   // example from hope
   // "/demo/",
   // {

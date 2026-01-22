@@ -1,42 +1,40 @@
 import { sidebar } from "vuepress-theme-hope";
+import { gamesSideBarConfig } from "./strategy/games.js";
 
 export const sideBarConfig = sidebar({
-  "/notes/": "structure",
+  "/learn/": "structure",
   "/about/": "structure",
   "/strategy/": [
+    "",
     {
-      text: "艾尔登法环 黑夜君临",
+      text: "游戏",
       // icon: "person-running",
-      prefix: "games/nightReign/",
-      children: "structure",
-    },
-    {
-      text: "背包乱斗：福西法的宝藏",
-      // icon: "book-atlas",
-      prefix: "games/backpackBattle/",
-      children: "structure",
+      prefix: "games/",
+      children: gamesSideBarConfig,
+      collapsible: true,
     },
   ],
-  "/": [
-    // "",
-    // {
-    //   text: "如何使用",
-    //   icon: "laptop-code",
-    //   prefix: "demo/",
-    //   link: "demo/",
-    //   children: "structure",
-    // },
-    // {
-    //   text: "文章",
-    //   icon: "book",
-    //   prefix: "posts/",
-    //   children: "structure",
-    // },
-    // "intro",
-    // {
-    //   text: "幻灯片",
-    //   icon: "person-chalkboard",
-    //   link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
-    // },
-  ],
+
+  //   "/": [
+  //     // "",
+  //     // {
+  //     //   text: "如何使用",
+  //     //   icon: "laptop-code",
+  //     //   prefix: "demo/",
+  //     //   link: "demo/",
+  //     //   children: "structure",
+  //     // },
+  //     // {
+  //     //   text: "文章",
+  //     //   icon: "book",
+  //     //   prefix: "posts/",
+  //     //   children: "structure",
+  //     // },
+  //     // "intro",
+  //     // {
+  //     //   text: "幻灯片",
+  //     //   icon: "person-chalkboard",
+  //     //   link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+  //     // },
+  //   ],
 });
