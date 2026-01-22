@@ -8,7 +8,7 @@ export const sideBarConfig = sidebar({
     "",
     {
       text: "游戏",
-      // icon: "person-running",
+      icon: "gamepad",
       prefix: "games/",
       children: gamesSideBarConfig,
       collapsible: true,
