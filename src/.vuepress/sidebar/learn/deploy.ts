@@ -1,3 +1,3 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const deploy = arraySidebar(["deployGithub"]);
+export const deploy = arraySidebar(["", "deployGithub"]);

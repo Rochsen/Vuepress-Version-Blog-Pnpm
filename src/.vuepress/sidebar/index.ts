@@ -1,20 +1,12 @@
 import { sidebar } from "vuepress-theme-hope";
 import { gamesSideBarConfig } from "./strategy/games.js";
-import { deploy, zhihuAi } from "./learn/index.js";
+import { learnSideBar, deploy, zhihuAi } from "./learn/index.js";
 
 export const sideBarConfig = sidebar({
-  "/learn/": [
-    {
-      text: "部署",
-      children: deploy,
-      // collapsible: true,
-    },
-    {
-      text: "AI大模型应用开发课",
-      children: zhihuAi,
-      // collapsible: true,
-    },
-  ],
+  "/learn/": learnSideBar,
+  "/learn/deploy/": deploy,
+  "/learn/aiApplicationEngineer": zhihuAi,
+
   "/about/": "structure",
   "/strategy/": [
     {
